@@ -1,0 +1,9 @@
+[submodule "server-go"]
+	path = server-go
+	url = git@github.com:designsbysm/word-clock-server-go.git
+[submodule "client-angular"]
+	path = client-angular
+	url = git@github.com:designsbysm/word-clock-client-angular.git
+[submodule "client-react"]
+	path = client-react
+	url = git@github.com:designsbysm/word-clock-client-react.git
