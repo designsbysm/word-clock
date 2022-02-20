@@ -1,0 +1,16 @@
+version: "3.7"
+services:
+  angular:
+    build:
+      context: client-angular
+    container_name: angular
+    ports:
+      - 8401:3000
+    restart: unless-stopped
+  react:
+    build:
+      context: client-react
+    container_name: react
+    ports:
+      - 8403:3000
+    restart: unless-stopped
