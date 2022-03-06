@@ -1,12 +1,6 @@
 {
   "folders": [
     {
-      "path": "server-go"
-    },
-    {
-      "path": "server-node"
-    },
-    {
       "path": "client-angular"
     },
     {
